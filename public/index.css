@@ -1,0 +1,58 @@
+body{
+  background: linear-gradient(135deg, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 22%, rgba(206,199,236,1) 42%, rgba(167,166,222,1) 66%, rgba(154,152,224,1) 100%);
+}
+
+.container h1{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 3em;
+  font-weight: 800;
+  color: rgb(129, 54, 54);
+  margin:55px 0 40px;
+}
+
+.container .get{
+  min-height: 38px;
+  background-color: rgba(0, 128, 0, 0.13);
+  border: green 1.4px solid;
+  padding: 3px;
+  border-radius: 5px;
+  margin-bottom: 14px;
+}
+
+.container .post{
+  background-color: rgba(235, 177, 16, 0.123);
+  border: rgb(235, 177, 16) 1.4px solid;
+}
+
+.container .put{
+  background-color: rgba(63, 163, 202, 0.13);
+  border: rgb(63, 163, 202) 1.4px solid;
+}
+
+.container .del{
+  background-color: rgba(206, 0, 0, 0.137);
+  border: red 1.4px solid;
+  margin-bottom: 10px;
+}
+
+.container .request{
+  min-width: 7%;
+  height: 100%;
+  min-height: 18px;
+  border-radius: 3px;
+  margin-right:15px ;
+  font-weight: 500;
+}
+
+.container .info{
+  width: 90%;
+  text-align: left;
+}
+
+.container strong{
+  margin-right: 17px;
+}
+
+.container span{
+  color: rgb(129, 54, 54);
+}
